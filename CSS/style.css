@@ -1,0 +1,57 @@
+h1{
+    color: pink;
+}
+
+.class1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    font-size: 24px;
+}
+
+.class2{
+    font-weight: bold;
+    background-color: orange;
+    padding: 16px;
+}
+
+.class3{
+    font-style: italic;
+}
+
+h1,h2{
+    letter-spacing: 0.2cm;
+}
+
+a{
+    color: green;
+}
+
+#style1{
+    background-color: yellow;
+}
+#style2{
+    background-color: blue;
+    color: white;
+}
+footer{
+    background-color: grey;
+}
+
+table,th,td{
+    border: 1px solid;
+    padding: 16px;
+}
+
+#style4{
+    color: grey;
+}
+#style3{
+    color: orange;
+}
+
+.class6{
+   background-color: pink;
+}
+
