@@ -1,0 +1,134 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+root{
+    ---Bright-orange: hsl(31, 77%, 52%);
+    ---Dark-cyan: hsl(184, 100%, 22%);
+    ---Very-dark-cyan: hsl(179, 100%, 13%);;/*root is used for  global styles that apply to the entire document.*/
+
+}
+body{
+    padding-top: 45px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+    background-color: black;
+    height: auto;
+    font-family: 'Big Shoulders Display', sans-serif;
+}
+h3{
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-size: 25px;
+    color: white;
+    padding-bottom: 0;
+}
+.box{
+    box-sizing: border-box;
+    background: white;
+    position: relative;
+    height:500px;
+}
+.box-column{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    position: absolute; 
+    left:140px;
+    top:70px;  
+    font-family: 'Lexend Deca', sans-serif;
+}
+.box-column{
+    flex-basis:30%;
+    padding: 0;
+    box-sizing: border-box;
+    height: 370px;
+    width:700px;
+    border: 1px solid white;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);   
+}
+.first{
+    background: #cd8511;
+    padding-top: 40px;
+    position: relative;
+    padding-left: 40px;
+    padding-bottom: 30px;
+    padding-right: 40px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.second{
+    background: #0c708c;
+    padding-top: 40px;
+    position: relative;
+    padding-left: 40px;
+    padding-bottom: 30px;
+    padding-right: 40px;
+}
+.third{
+    background-color: hsl(179, 100%, 13%);
+    padding-top: 40px;
+    position: relative;
+    padding-left: 40px;
+    padding-bottom: 30px;
+    padding-right: 40px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.learn-size{
+    display: inline-block;
+    text-decoration: none;
+    color:white;
+    border: 1px solid white;
+    padding: 8px 22px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    border-radius: 25px;
+    transition: 0.5s;
+}
+.learn-size:hover{
+    background-color: white;
+    color: #cd8511;
+  
+}
+img{
+    height: 25px;
+}
+p{
+    letter-spacing: 0;
+    line-height: 22px;
+    color: white;
+    font-size: 10px;
+    padding-bottom: 30px;
+}
+@media(max-width: 700px){
+    body{
+        padding: 0;
+        position: relative;
+    }
+    .box-column{
+            flex-direction: column;
+    }
+    .box-column{
+        position: absolute;
+        left:5px;
+        top:5px;
+        bottom: 300px;
+        right: px;
+        width: 250px;
+    }
+    .first{
+        text-align:left;
+    }
+}
+@media(max-width: 700px){
+    img{
+        height: 25px;
+        top:10px;
+    }
+}
+    
+   
+    
