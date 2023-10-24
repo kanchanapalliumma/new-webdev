@@ -1,0 +1,177 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Lexend+Deca&display=swap');
+body{
+    padding:65px;
+    padding-left: 270px;
+    padding-bottom: 100px;
+    height: 300px;
+    background-color: rgb(37, 36, 36);   
+}
+.big-box{
+    display: grid;
+    width:8px;
+    height:350px;
+    grid-template-columns:235px ;
+    grid-template-rows: 155px;
+    padding:600px;
+    padding-top: 50px;
+    padding-left: 135px;
+    padding-bottom: 50px;
+    background-color: rgb(247, 239, 225);
+    font-family: 'Karla', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+}
+._{
+    font-family: 'Karla', sans-serif;
+}
+.first-box{
+    grid-column: 1/5;
+    background-color: rgb(252, 248, 228);
+    padding-top: 10px;
+    padding-left: 35px;
+    width: 425px;
+    color: lightgray;
+    border-top-left-radius:8px;
+    border-top-right-radius: 8px;
+    font-size: 16px;
+    line-height: 8px;
+    box-shadow: 0 2px 3px rgb(0 0 0 / 10%),
+    0 1px 2px rgb(0 0 0 / 6%),
+      0 0 2px rgb(0 0 0 / 7%);
+}
+.second-box{
+    background-color:rgb(43, 177, 186);
+    width: 200px;
+    padding-top: 10px;
+    padding-left: 35px;
+    color: lightgray;
+    border-bottom-left-radius: 8px;
+    box-shadow: 0 2px 3px rgb(0 0 0 / 10%),
+    0 1px 2px rgb(0 0 0 / 6%),
+      0 0 2px rgb(0 0 0 / 7%); 
+}
+.third-box{
+    background-color: rgb(78, 180, 188);
+    width:190px;
+    padding-top: 10px;
+    padding-left: 35px;
+    border-bottom-right-radius: 8px; 
+    color:lightcyan;
+    padding-bottom: px;
+    box-shadow: 0 2px 3px rgb(0 0 0 / 10%),
+    0 1px 2px rgb(0 0 0 / 6%),
+      0 0 2px rgb(0 0 0 / 7%);
+}
+p{
+    font-size: 12px;
+    line-height: 10px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+#p3{
+    font-size: 8px;
+    line-height: 4px;
+    font-family: 'Karla', sans-serif;    
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+    border: 0px solid white;
+    padding: 10px 60px;
+    border-radius: 5px;
+    font-size: 12px;
+    background: transparent;
+    cursor: pointer;
+    transition: 0.5s;
+    background-color: rgb(160, 240, 32);
+    box-shadow: 0 2px 3px rgb(0 0 0 / 10%),
+    0 1px 2px rgb(0 0 0 / 6%),
+      0 0 2px rgb(0 0 0 / 7%);
+    color: white;
+}
+.first-heading{
+    color: rgb(66, 211, 211);
+    font-size: 14px;
+}
+.heading-h5{
+    color:rgb(207, 228, 52);
+    font-family: 'Karla', sans-serif;
+}
+.uma{
+    padding-bottom: 13px;
+    font-size: 12px;
+    font-family: 'Karla', sans-serif;
+    color: white;
+    padding-top: 7px;
+}
+.heading4-2{
+    color: white;
+    font-weight: 3px;
+}
+#first-paragragh{
+    font-size: 10.5px;
+    font-family: 'Karla', sans-serif;
+    color:rgb(184, 178, 178);
+    line-height: 23px;
+}
+span{
+    font-size: 19px;
+    font-family: 'Karla', sans-serif;
+    color: white;
+    padding-right: 10px;
+}
+.third-heading{
+    color: whitesmoke;
+}
+@media(max-width:375px){
+    body{
+        padding: 0;
+
+    }
+    .big-box{
+        display: flex;
+        flex-direction: column;
+        padding-top:40px;
+        padding-left: 35px;
+        padding-right: 330px;
+        padding-bottom: 290px;
+    }
+    .first-box{
+        font-size: 15px;
+        height: 300px;
+        width: 250px;
+        line-height: 20px;
+    }
+    #first-paragragh{
+        line-height: 22px;
+        padding-top: 0;
+        font-size: 10px;
+    }
+    .first-heading{
+        font-size: 19px;
+    }
+    .second-box{
+        height: 500px;
+        width: 250px;
+        border-bottom-left-radius: 0;
+        padding-bottom: 20px;
+    }
+    .third-box{
+        height:310px ;
+        width: 250px;
+        padding-bottom: 15px;
+        border-bottom-left-radius: 10px;
+    }
+    #p3{
+        font-size: 7x;  
+    }
+    a{
+        box-shadow: 0 2px 3px rgb(0 0 0 / 10%),
+        0 1px 2px rgb(0 0 0 / 6%),
+          0 0 2px rgb(0 0 0 / 7%);
+    }
+}   
+
+
+
+
+
